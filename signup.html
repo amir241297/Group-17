@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            font-family: Arial;
+        }
+        #container {
+                width:30%;
+                margin: 7% 25%;
+                background-color: rgb(73, 191, 171);
+                box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+            #container>p{
+                color: aliceblue;
+                text-align: center;
+                padding:30px;
+                font-size: 3ch;
+            }
+            #container> input{
+                margin: 0px 12.5% 20px 12.5%;
+                border:0px;
+                padding: 20px;
+                background-color: aliceblue;
+                font-size:larger;
+            }
+            #container>button{
+                width: 75%;
+                margin: auto;
+                padding: 20px ;
+                background-color: rgba(58, 166, 152, 0.895);
+                border:none;
+                margin-bottom: 20px;
+                color: aliceblue;
+                font-size: 15px;
+                font-weight:500;
+                cursor: pointer;
+                letter-spacing: 0.2em;
+            }
+            #container>button:last-child{
+                margin-bottom:70px;
+            }
+            input::placeholder {
+                font-size: 20px;
+                font-weight:100;
+                color:grey;
+            }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <p>- Visitor -</p>
+
+        <input type="text" placeholder="Full name">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Organization">
+
+        <button>SIGN UP</button>
+        <button>RETURN</button>
+   </div>
+</body>
+</html>
